@@ -6,17 +6,26 @@ app.config['SECRET_KEY'] = '5791628bb0b13ce0c676dfde280ba245'
 
 posts = [
     {
-        'author': 'Corey Schafer',
-        'title': 'Blog Post 1',
-        'content': 'First post content',
-        'date_posted': 'April 20, 2018'
+        'author': 'Emory Cole',
+        'title': 'Intel Signal 0.001',
+        'content': 'Detail content',
+        'date_posted': 'April 04, 2020'
     },
     {
-        'author': 'Jane Doe',
-        'title': 'Blog Post 2',
-        'content': 'Second post content',
-        'date_posted': 'April 21, 2018'
+        'author': 'Anne Denton',
+        'title': 'Intel Signal 0.002',
+        'content': 'Detail content',
+        'date_posted': 'April 14, 2020'
+    },
+
+    {
+        'author': 'Melena Biento',
+        'title': 'Intel Signal 0.003',
+        'content': 'Detail content',
+        'date_posted': 'April 17, 2020'
     }
+
+
 ]
 
 
