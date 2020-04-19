@@ -22,7 +22,7 @@ posts = [
         'author': 'Melena Biento',
         'title': 'Intel Signal 0.003',
         'content': 'Detail content',
-        'date_posted': 'April 17, 2020'
+        'date_posted': 'April 18, 2020'
     }
 
 
