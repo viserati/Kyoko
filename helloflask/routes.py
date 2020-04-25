@@ -10,20 +10,20 @@ posts = [
         'author': 'Emory Cole',
         'title': 'Intel Signal 0.001',
         'content': 'Detail content',
-        'date_posted': 'April 04, 2020'
+        'date_posted': 'April 05, 2020'
     },
     {
         'author': 'Anne Denton',
         'title': 'Intel Signal 0.002',
         'content': 'Detail content',
-        'date_posted': 'April 14, 2020'
+        'date_posted': 'April 15, 2020'
     },
 
     {
         'author': 'Melena Biento',
         'title': 'Intel Signal 0.003',
         'content': 'Detail content',
-        'date_posted': 'April 18, 2020'
+        'date_posted': 'April 19, 2020'
     }
 
 
