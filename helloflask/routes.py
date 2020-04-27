@@ -8,20 +8,20 @@ from flask_login import login_user, current_user, logout_user, login_required
 posts = [
     {
         'author': 'Emory Cole',
-        'title': 'Intel Signal 0.001',
+        'title': 'Intel Signal 0.01',
         'content': 'Detail content',
         'date_posted': 'April 06, 2020'
     },
     {
         'author': 'Anne Denton',
-        'title': 'Intel Signal 0.002',
+        'title': 'Intel Signal 0.02',
         'content': 'Detail content',
         'date_posted': 'April 16, 2020'
     },
 
     {
         'author': 'Melena Biento',
-        'title': 'Intel Signal 0.003',
+        'title': 'Intel Signal 0.03',
         'content': 'Detail content',
         'date_posted': 'April 20, 2020'
     }
