@@ -1,6 +1,6 @@
 import os
 import secrets
-# from PIL import Image
+from PIL import Image
 from flask import render_template, url_for, flash, redirect, request
 from helloflask import app, db, bcrypt
 from helloflask.forms import RegistrationForm, LoginForm,UpdateAccountForm
@@ -81,13 +81,11 @@ def save_picture(form_picture):
     picture_fn = random_hex + f_ext
     picture_path = os.path.join(app.root_path, 'static/profile_pics', picture_fn)
 
-    # below was intended to resize large images - image breaks when implemented.
-    # output_size = (200, 200)
-    # i = Image.open(form_picture)
-    # i.thumbnail(output_size)
-
-
-    form_picture.save(picture_path)
+    # Below is intended to resize large images (tied to the PIL (Pillow) package imported above.)
+    output_size = (125, 125)
+    i = Image.open(form_picture)
+    i.thumbnail(output_size)
+    i.save(picture_path)
 
     return picture_fn
 
