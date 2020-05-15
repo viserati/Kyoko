@@ -73,7 +73,7 @@ def validate_email(self, email):
     if user is None:
         raise ValidationError('There is no account with that email. You must register first')
 
-class ResetPasswordForm(Flask):
+class ResetPasswordForm(FlaskForm):
     password = PasswordField('Password', validators=[DataRequired()])
     confirm_password = PasswordField('Confirm Password', validators=[DataRequired(), EqualTo('password')])
     submit = SubmitField('Reset Password')
